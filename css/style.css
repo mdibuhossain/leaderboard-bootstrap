@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------------
+Latest Courses 
+---------------*/
+.course{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(211, 211, 211, 0.342);
+}
+.course_banner img{
+    width: 224px;
+}
+.course_info{
+    margin: 19px 0;
+    font-size: 20px;
+}
+.course_info p:nth-child(1){
+    font-weight: 500;
+}
+.course_info p:nth-child(2) a{
+    color: #ED6B4F;
+    font-size: 15px;
+}
+.course_rating{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.fa-star{
+    color: #aeaeae75;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.rating span, .course_duration span{
+    font-size: 14px;
+}
+.course_duration{
+    padding: 2px 8px;
+    border-radius: 50px;
+    background-color: #FFE4E8;
+}
