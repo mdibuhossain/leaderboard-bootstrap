@@ -13,7 +13,6 @@ Latest Courses
     justify-content: space-between;
     align-items: center;
     padding: 13px;
-    width: 230px;
     border-radius: 15px;
     box-shadow: 0 5px 10px rgba(211, 211, 211, 0.342);
 }
@@ -21,7 +20,8 @@ Latest Courses
     width: 100%;
 }
 .course_info{
-    margin: 19px 0;
+    width: 100%;
+    /* margin: 1rem 0; */
     font-size: 20px;
 }
 .course_info p:nth-child(1){
